@@ -102,6 +102,7 @@ class GameContainer extends Component {
         <Grid
           currentPlayer={this.state.currentPlayer}
           handleFieldClick={this.handleFieldClick}
+          winner={this.state.winner}
         />
         <button onClick={this.resetGameContainer}>Restart</button>
         <h2>{this.state.winner}</h2>
