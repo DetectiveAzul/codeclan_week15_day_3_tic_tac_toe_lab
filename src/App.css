@@ -1,9 +1,8 @@
 .game-container {
   display: flex;
-  height: 95vw;
-  width: 95vw;
+  height: 95vh;
+  width: 95vh;
   position: relative;
-  justify-content: center;
   flex-direction: column;
 }
 
